@@ -1,0 +1,40 @@
+Text Analytics Data Quality Report
+
+Original vocabulary size: 677
+Processed vocabulary size: 20
+Average original word count: 20.55
+Average cleaned word count: 19.16
+Average processed word count: 9.18
+
+Sample Named Entities and POS Tags (first 5 rows):
+
+Row 0 NER: []
+Row 0 POS: [('causing', 'VERB'), ('reply', 'NOUN'), ('disregarded', 'VERB'), ('tapped', 'VERB'), ('ratification', 'NOUN'), ('keyboard', 'NOUN'), ('opened', 'VERB')]
+
+Row 1 NER: []
+Row 1 POS: [('business', 'NOUN'), ('mean', 'VERB'), ('lot', 'NOUN'), ('u', 'PRON'), ('please', 'INTJ'), ('name', 'VERB'), ('zip', 'NOUN'), ('code', 'NOUN'), ('additional', 'ADJ'), ('detail', 'NOUN'), ('concern', 'NOUN')]
+
+Row 2 NER: []
+Row 2 POS: [('really', 'ADV'), ('hope', 'AUX'), ('change', 'VERB'), ('sure', 'ADJ')]
+
+Row 3 NER: []
+Row 3 POS: [('livechat', 'DET'), ('online', 'ADJ'), ('moment', 'NOUN'), ('contact', 'NOUN'), ('option', 'NOUN'), ('leave', 'VERB'), ('message', 'NOUN'), ('request', 'NOUN'), ('call', 'VERB'), ('back', 'ADV')]
+
+Row 4 NER: [('several time past week', 'DATE')]
+Row 4 POS: [('see', 'VERB'), ('attached', 'VERB'), ('error', 'NOUN'), ('message', 'NOUN'), ('tried', 'VERB'), ('leaving', 'VERB'), ('voicemail', 'NOUN'), ('several', 'ADJ'), ('time', 'NOUN'), ('past', 'ADP'), ('week', 'NOUN')]
+
+Top 5 words per LDA Topic:
+Topic 1: help, send, happy, look, issue, thanks
+Topic 2: please, thanks, name, address, full, know
+Topic 3: reply, hope, find, miriam, answer, mean
+Topic 4: version, help, update, phone, problem, specify
+Topic 5: get, time, week, battery, tried, hour
+
+Cluster counts:
+cluster
+4    89
+2     1
+0     1
+1     1
+3     1
+Name: count, dtype: int64
