@@ -73,6 +73,7 @@ This project demonstrates how advanced Natural Language Processing (NLP) methods
 2. Install dependencies:
     ```bash
     pip install -r requirements.txt
+    
     ```
 
 3. Open and run the Jupyter notebook:
